@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('image1.jpeg');
+    background-color: #f0f0f0; /* Change to light blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    /*background: url('Plant.jpeg');*/
+    background-color: #c4aa56;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    background-color: #403a1d; /* Change to light pink */
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #584705; /* Light pink */
+}
+
+button.delete {
+    background-color: #644b06; /* Light pink */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 6px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+li span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+li button {
+    background-color: #dc3545; /* Change to light pink */
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
